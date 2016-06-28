@@ -1,0 +1,110 @@
+body {
+  background-image: url("mappng.png");
+  background-repeat: no-repeat;
+}
+img {
+  float:left;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+.animal {
+  border-radius: 10px;
+  width: 150px;
+  height: 110px;
+  transition-property: width, background-color;
+  transition-duration: .5s;
+
+}
+
+.animal:hover {
+  width: 300px;
+  background-color: orange;
+  box-shadow: 10px 10px 5px  #efefef;
+}
+.hide {
+  opacity: 0;
+  line-height: 5px;
+}
+.hide:hover {
+  opacity: 10;
+}
+
+#cheetah {
+  position: absolute;
+  top: 750px;
+  left: 1000px;
+}
+
+#shark {
+  position: absolute;
+  top: 1100px;
+  left: 900px;
+}
+
+#condor {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+}
+#rhino {
+  position: absolute;
+  top: 450px;
+  left: 875px;
+}
+#butterfly {
+  position:absolute;
+  top: 300px;
+  left: 1050px;
+}
+#panda {
+  position: absolute;
+  top: 300px;
+  left: 1500px;
+}
+#pheasant {
+  position: absolute;
+  top: 550px;
+  left: 1600px;
+}
+#turtle {
+  position: absolute;
+  top: 750px;
+  left: 1675px;
+}
+#toad {
+  position: absolute;
+  top: 450px;
+  left: 250px;
+}
+.box1 {
+  width: 250px;
+  height: 85px;
+  background-color: #cbcbcb;
+  border-radius: 20px;
+  border: 2px solid white;
+  box-shadow: 1px 1px 1px 1px black;
+  position:relative;
+  top: 1100px;
+  left: 200px;
+}
+.box2 {
+  width: 225px;
+  height: 70px;
+  position: absolute;
+  top: 8px;
+  left:13px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px grey;
+  background: gray;
+background: -webkit-linear-gradient(#dad9d9, #b0b0b0); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#dad9d9, #b0b0b0); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#dad9d9, #b0b0b0); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#dad9d9, #b0b0b0); /* Standard syntax (must be last) */
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
